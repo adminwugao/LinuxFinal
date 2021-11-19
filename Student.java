@@ -1,12 +1,14 @@
 class Student{
-   private String name;
-   private String no;
-   private int age;
-   
-   Student(String name, String no, int age) {
-	this.name = name;
-	this.no = no;
-	this.age = age;
-    }
-}
+    private int id;
+    private String name;
+    private String number;
+    private int age;
 
+    Student(int id, String name, String number, int age) {
+        this.id = id;
+        this.name = name;
+        this.number = number;
+        this.age = age;
+    }
+
+}
